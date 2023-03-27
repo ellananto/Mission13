@@ -6,7 +6,10 @@ function MovieList() {
   return (
     <>
       <NavBar />
-      <h1 style={{ display: 'flex', justifyContent: 'center' }}>
+      <h1
+        style={{ display: 'flex', justifyContent: 'center' }}
+        className="mt-3 mb-3"
+      >
         Movie Collection
       </h1>
       <table className="table">
