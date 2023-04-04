@@ -25,23 +25,29 @@ function MovieList() {
       <table className="table">
         <thead>
           <tr>
+            <th>Movie ID</th>
             <th>Title</th>
             <th>Year</th>
             <th>Director</th>
             <th>Rating</th>
             <th>Edited</th>
             <th>Category</th>
+            <th>Lent To</th>
+            <th>Notes</th>
           </tr>
         </thead>
         <tbody>
           {movieData.map((m) => (
             <tr key={m.movieId}>
+              <td>{m.movieId}</td>
               <td>{m.title}</td>
               <td>{m.year}</td>
               <td>{m.director}</td>
               <td>{m.rating}</td>
               <td>{m.edited}</td>
               <td>{m.category}</td>
+              <th>{m.lentTo}</th>
+              <td>{m.notes}</td>
             </tr>
           ))}
         </tbody>
