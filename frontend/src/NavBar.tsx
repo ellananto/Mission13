@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HomePage from './Home';
-import MovieList from './MovieList';
+import MovieList from './movies/MovieList';
 import Podcasts from './Podcasts';
 
 function NavBar() {
